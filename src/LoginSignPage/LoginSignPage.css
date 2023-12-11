@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.btn-btn-btn button{
+    padding: 10px 60px 10px 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    border-radius: 150px 2px 150px 2px;
+    margin-top: 40%;
+    background-color: rgb(48, 61, 182);
+    color: aliceblue;
+    border: 5px solid rgb(198, 231, 34);
+}
+
+.btn-btn-btn button:hover{
+    background: transparent;
+    border: 2px solid rgb(34, 231, 44);
+    color: rgb(48, 61, 182);
+}
+
+.container12 {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(253, 101, 133, 1) 0%,
+      rgba(255, 211, 165, 1) 90%
+    ); */
+  }
+  
+.bg-img1{
+    background-image: url('./src/LoginSignPage/Bankinghome.jpeg') ;
+    background-size: cover;
+  }
